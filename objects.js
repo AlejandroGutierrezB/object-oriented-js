@@ -19,7 +19,7 @@ class User {
     }
 }
 
-var userOne = new User('ryyyyyan@ninjas.com', 'Ryyyyu');
+var userOne = new User('ryan@ninjas.com', 'Ryu');
 var userTwo = new User('yoshi@mariokorp.com', 'Yoshi');
 
 userOne.login().updateScore().updateScore().logout();
