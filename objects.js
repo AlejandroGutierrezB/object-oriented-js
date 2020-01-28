@@ -21,7 +21,7 @@ function Admin(...args) { // ...args make the input from "new Admin" into an arr
 Admin.prototype = Object.create(User.prototype);
 Admin.prototype.deleteUser = function (u) {
     users = users.filter(users => {
-        return user.email != u.email;
+        return user.email != u.email;//if its (true) different it wont filter it out from the array because its not there
     });
 };
 
